@@ -1,0 +1,30 @@
+.navbar {
+    width: 200px;
+    /* Adjust width as needed */
+    background-color: #f4f4f4;
+    height: 100vh;
+    /* Full height */
+    position: fixed;
+    /* Stick to the left side */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 15px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #007bff;
+    /* Change color on hover */
+}

@@ -1,0 +1,46 @@
+<!-- Use case of pseudo-class Directive -->
+<div highlight>Drop files here</div>
+<textarea highlight>This textarea will not be affected</textarea>
+<input highlight type="text" placeholder="Something input here...">
+
+<!-- Use case of pseudo-class Component -->
+<!-- AppCard on a div -->
+<div appCard></div>
+<!-- Section will not be affected by the AppCard component -->
+<section appCard></section>
+
+<!-- Dropzone on a div -->
+<div app-drop-zone></div>
+
+<!-- Textarea will not be affected by the Dropzone component -->
+<textarea app-drop-zone></textarea>
+
+<!-- Dropzone on a section -->
+<section app-drop-zone></section>
+
+<!-- Use case of class selector Component -->
+<div class="app-class-selector"></div>
+
+<!-- Use case of class selector Directive -->
+<p class="app-highlight">This paragraph will be highlighted with a yellow background due to the directive.</p>
+
+<!-- Use case of class Combine Selector -->
+<!-- Option 1: Using the drop-zone custom element -->
+<combining-drop-zone>
+    <strong>Custom element: Drop files here!</strong>
+</combining-drop-zone>
+
+<br><br>
+
+<!-- Option 2: Using the dropzone attribute on a div -->
+<div combiningdropzone>
+    <strong>Attribute on div: Drop your files here!</strong>
+</div>
+
+<!-- Use case of Combine Selector Btn -->
+<!-- This will use the ResetButtonComponent -->
+<button type="reset"></button>
+
+<!-- This will NOT use the ResetButtonComponent -->
+<button type="submit">Submit</button>
+<button type="button">Normal Button</button>

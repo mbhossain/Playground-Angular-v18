@@ -1,0 +1,38 @@
+/* Add styles for elements with the highlight attribute */
+[highlight] {
+    border: 2px dashed #4CAF50;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+[highlight]:hover {
+    background-color: #e8f5e9;
+}
+
+/* Customize for specific elements */
+div[highlight] {
+    min-height: 100px;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 100px;
+    color: #2e7d32;
+}
+
+textarea[highlight] {
+    height: 100px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    resize: vertical;
+}
+
+input[highlight] {
+    font-size: 1em;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
